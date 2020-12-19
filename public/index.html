@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Stablympic | Winter Hacklympics </title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/main-logo.png" alt="" / width="125px">
+                    </a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li>ABOUT US</li>
+                        <li>CONTACT US</li>
+                    </ul>
+                </nav>
+                
+                <img src="images/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+            </div>
+
+            <div class="row">
+                <div class="col-2">
+                    <h1>SELF STABILIZING <br />PLATFORM FOR CAMERAS</h1>
+                    <p>
+                        When words becomes unclear, I shall focus with photographs.<br />When
+                        Images becomes inadequate, I shall be content with silence.
+                    </p>
+                    <a href="" class="btn">Read More Below &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/main.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/1.png" alt="" />
+                </div>
+                <div class="col-3">
+                    <img src="images/original.png" alt="" />
+                </div>
+                <div class="col-3">
+                    <img src="images/stabilized.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="small-container">
+        <h2 class="title">USES OF THE PLATFORM</h2>
+        <div class="row">
+            <div class="col-4">
+                    <img src="images/2.jpg" alt="" />
+                    <h4>Used for video stabilization</h4>
+                    <p> Many times such platforms are required for recording the running of runners in olympics.</p>
+            </div>
+            <div class="col-4">
+                <img src="images/3.png" alt="" />
+                <h4>Used for Surgery platforms</h4>
+                <p> It can be used in stabilization of surgery platforms by the doctors.</p>
+            </div>
+            <div class="col-4">
+                <img src="images/4.jpg" alt="" />
+                <h4>Used in ships or vehicles</h4>
+                <p> Used in ships or vehicles to develop anti-motion sickness seats.</p>
+            </div>
+            <div class="col-4">
+                <img src="images/5.gif" alt="" />
+                <h4>Used in making earthquake proof buildings</h4>
+                <p>Same mechanism applied in inself balancing scooter also known as hoverboard.</p>
+            </div>
+        </div>
+
+        <h2 class="title">Components Used</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/arduino.jpg" alt="" />
+                <h4>Arduino Uno</h4>
+                <p>The processing unit or the micro-controller unit takes reading from the sensor and according calculates the angle and accordingly controls the platform with servo motor.</p>
+            </div>
+            <div class="col-4">
+                <img src="images/mpu.jpg" alt="" />
+                <h4>MPU6050 MEMS Sensor</h4>
+                <p> MPU6050 is a MEMS Sensor with an accelerometer and gyro sensor in a single chip. It is very accurate and has an internal 16-bit ADC for each channel. And the sensors interface easily to Arduino using I2C protocol. </p>
+            </div>
+            <div class="col-4">
+                <img src="images/servo.jpg" alt="" />
+                <h4>Servo-Motor</h4>
+                <p>For Motors we have decided to use Servo motor as it is very easy to operate and has internal feedback mechanism so no external feedback is required for the platform. Over here we have used MG90 Metal gear Servo Motor.</p>
+            </div>
+            <div class="col-4">
+                <img src="images/bread.png" alt="" />
+                <h4>Bread Board</h4>
+                <p>Board over which all the components were placed and all the connections were done. You can find it easily in any online store or any hardware store nearby. Make sure to keep all the connections tight.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/jumper.jpg" alt="" />
+                <h4>Jumper Wires</h4>
+                <p>They are male or female wires which were used for making the connections for the circuit.</p>
+            </div>
+            <div class="col-4">
+                <img src="images/gun.jpg" alt="" />
+                <h4>40W Glue Gun</h4>
+                <p>Glue gun is basically a portable device which dispense hot melted adhesives.</p>
+            </div>
+            <div class="col-4">
+                <img src="images/stick.jpg" alt="" />
+                <h4>Glue Stick</h4>
+                <p>This is a Hot Melt Glue Stick also called as Glue Stick pr Hot Melt Adhesive it is used with Glue Guns. The glue is tacky when hot, and solidifies in a few seconds to one minute.</p>
+            </div>
+            <div class="col-4">
+                <img src="images/filter.jpg" alt="" />
+                <h4>Kalman Filter</h4>
+                <p>Kalman filtering is an algorithm that provides estimates of some unknown variables given the measurements observed over time. Kalman filters have been demonstrating its usefulness in various applications.</p>
+            </div>
+        </div>
+    </div>
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/1.png" alt="" class="offer-img" />
+                </div>
+                <div class="col-2">
+                    <p>Watch our Youtube video now</p>
+                    <h1>Self Stabilizing Platform for Cameras</h1>
+                    <small>
+                        Using this platform will be useful for recording stabilized 
+                        videos in olympics. Otherwise the videos which are mostly in
+                        motion come out to be hazy.
+                    </small>
+                    <a href="#" class="btn">Watch now&#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonial">
+        <h2 class="title">ABOUT US</h2>
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        3rd year ECE student studying at Vellore Institute of Technology.
+                    </p>
+                    <img src="images/Tanisha.jpg" alt="">
+                    <h3>Tanisha Rakshit</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        3rd year ECE student studying at Vellore Institute of Technology.
+                    </p>
+                    <img src="images/Aayush.jpg" alt="">
+                    <h3>Aayush Shrestha</h3>
+                </div>
+    </div>
+
+
+    <h2 class="title">CONTACT US</h2>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download App for Andriod and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/main-logo.png" alt="">
+                    <p>Self Stabilizing platform for cameras for video stabilization- Made with Love for Winter Hacklympics </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Youtube</li>
+                        <li><a href="http://192.168.29.97:8501">Test Web App</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li> <a href="https://www.linkedin.com/in/tanisha-rakshit-82323119b/">Linkedin</a> </li>
+                        <li> <a href="https://github.com/tanisha15"> Github</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright &copy; 2020 - www.stablympic.com</p>
+        </div>
+    </div>
+
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+
+</body>
+
+</html>
