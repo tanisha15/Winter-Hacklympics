@@ -3,9 +3,9 @@
 The project uses PID to obtain filtered  values regarding the position of the  accelerometer/gyroscope(MPU6050)	as  feedback which it then uses to remain in  the calibrated position despite a  displacement. Servo motors have been  programmed to obey the microcontroller  based on the feedback received from the  gyroscope.
 
 ## REQUIREMENTS:
-pip install opencv-python
-pip install streamlit
-pip install numpy==1.19.3
+* `pip install opencv-python`
+* `pip install streamlit`
+* `pip install numpy==1.19.3`
 
 ## EXECUTION:
 The following were done on an Anaconda 3 environment on Windows OS
